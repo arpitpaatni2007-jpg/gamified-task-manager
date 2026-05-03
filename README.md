@@ -86,12 +86,19 @@ This project solves this problem by combining task management with gamification 
 ## 📂 Project Structure
 
 src/
+
 ├── components/
+
 ├── pages/
+
 ├── context/
+
 ├── hooks/
+
 ├── services/
+
 ├── App.jsx
+
 └── main.jsx
 
 ---
@@ -141,9 +148,7 @@ https://en.wikipedia.org/api/rest_v1/page/summary/Pomodoro_technique
 
 ---
 
-## 📸 Screenshots
 
-(Add screenshots here if required)
 
 ---
 
