@@ -1,5 +1,7 @@
 # ⚡ Level Up — Gamified Task Manager
+
 ### Capstone Project | Education / Productivity Domain
+
 **Made by Arpit Patni**
 
 ---
@@ -13,6 +15,7 @@ Many students and professionals struggle to stay motivated while managing their 
 ## ✅ Features List
 
 ### Core CRUD Features
+
 - ➕ Add tasks
 - 🗑️ Delete tasks
 - ✅ Mark tasks complete / incomplete
@@ -20,12 +23,14 @@ Many students and professionals struggle to stay motivated while managing their 
 - 📋 Task list display
 
 ### Gamification Features
+
 - ⭐ +20 XP per completed task
 - 🏆 Level system: Level 1 → 5 (Beginner → Legend)
 - 📊 Progress bar showing level progress
 - 💰 Total XP display in navbar
 
 ### Advanced Features (3+ from SOP)
+
 - 🔍 Search tasks (with debounce)
 - 🏷️ Filter: All / Pending / Completed
 - 📄 Pagination (5 tasks per page)
@@ -33,6 +38,7 @@ Many students and professionals struggle to stay motivated while managing their 
 - 📊 Recent activity log
 
 ### API Integration
+
 - 🌐 Wikipedia REST API for productivity tips
 - Axios for API calls
 - Loading, error, and success states handled
@@ -79,9 +85,11 @@ gamified-task-manager/
 ## ⚙️ Setup Instructions
 
 ### Step 1 — Install Node.js
+
 Download from: https://nodejs.org (v18 or above)
 
 ### Step 2 — Clone / Download project
+
 ```bash
 # if using git
 git clone <your-repo-url>
@@ -91,20 +99,25 @@ cd gamified-task-manager
 ```
 
 ### Step 3 — Install dependencies
+
 ```bash
 npm install
 ```
 
 ### Step 4 — Run development server
+
 ```bash
 npm run dev
 ```
+
 Open: http://localhost:5173
 
 ### Step 5 — Build for production
+
 ```bash
 npm run build
 ```
+
 This creates a `dist/` folder ready for deployment.
 
 ---
@@ -175,25 +188,25 @@ A: Tailwind is a utility-first CSS framework. Instead of writing custom CSS, you
 
 ## 📊 SOP Checklist
 
-| Requirement | Status |
-|---|---|
-| React (Vite) | ✅ |
-| JavaScript ES6+ | ✅ |
-| Context API | ✅ |
-| React Router | ✅ |
-| Axios / Fetch API | ✅ (Axios) |
-| Tailwind CSS | ✅ |
-| CRUD Operations | ✅ |
-| API Integration | ✅ (Wikipedia) |
-| Lazy Loading | ✅ |
-| Pagination | ✅ |
-| Search + Filter | ✅ |
-| Dark Mode | ✅ |
-| Error Handling | ✅ |
-| LocalStorage | ✅ |
-| Deployment-ready | ✅ |
-| Unique Problem Statement | ✅ |
+| Requirement              | Status         |
+| ------------------------ | -------------- |
+| React (Vite)             | ✅             |
+| JavaScript ES6+          | ✅             |
+| Context API              | ✅             |
+| React Router             | ✅             |
+| Axios / Fetch API        | ✅ (Axios)     |
+| Tailwind CSS             | ✅             |
+| CRUD Operations          | ✅             |
+| API Integration          | ✅ (Wikipedia) |
+| Lazy Loading             | ✅             |
+| Pagination               | ✅             |
+| Search + Filter          | ✅             |
+| Dark Mode                | ✅             |
+| Error Handling           | ✅             |
+| LocalStorage             | ✅             |
+| Deployment-ready         | ✅             |
+| Unique Problem Statement | ✅             |
 
 ---
 
-*Made with ❤️ by Arpit Patni*
+_Made with ❤️ by Arpit Patni_
