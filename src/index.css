@@ -1,0 +1,21 @@
+/* import tailwind base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom scrollbar - looks cleaner */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #a78bfa;
+  border-radius: 10px;
+}
+
+/* smooth transition for dark mode */
+* {
+  transition: background-color 0.2s, color 0.2s;
+}
